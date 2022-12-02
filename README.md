@@ -3,6 +3,11 @@
 ```
 Translating text from image
 Work better in high quality
+
+Library used:
+open-cv
+textblob
+pytesseract
 ```
 
 #### Requirements
@@ -47,6 +52,18 @@ ORIGINAL
 TRANSLATED
 ==========
 good morning.
+```
+
+```
+python img_trans.py --image example.png --from_lang ja --to_lang vi
+
+ORIGINAL
+========
+おはようございます。
+
+TRANSLATED
+==========
+buổi sáng tốt lành.
 ```
 
 #### note:
