@@ -36,7 +36,15 @@ python img_trans.py --image your_image_name --from_lang from_language_code --to_
 #### example:
 
 ```
-python img_trans.py --image my_img.png --from_lang ja --to_lang en
+python img_trans.py --image example.png --from_lang ja --to_lang en
+
+ORIGINAL
+========
+おはようございます。
+
+TRANSLATED
+==========
+good morning.
 ```
 
 #### note:

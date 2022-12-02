@@ -32,7 +32,7 @@ print("")
 
 # translate the text to a different language
 tb = TextBlob(text)
-translated = tb.translate(from_lang='ja', to=args["lang"])
+translated = tb.translate(from_lang=args["from_lang"], to=args["to_lang"])
 # show the translated text
 print("TRANSLATED")
 print("==========")
