@@ -35,6 +35,8 @@ python img_trans.py --image your_image_name --from_lang from_language_code --to_
 
 #### example:
 
+![Alt text](example.png "Example image")
+
 ```
 python img_trans.py --image example.png --from_lang ja --to_lang en
 
