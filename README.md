@@ -38,8 +38,9 @@ put your image in the root folder
 python img_trans.py --image your_image_name --from_lang from_language_code --to_lang to_language_code
 ```
 
-#### example:
+#### Example:
 
+example.png:
 ![Alt text](example.png "Example image")
 
 ```
@@ -66,8 +67,9 @@ TRANSLATED
 buổi sáng tốt lành.
 ```
 
-#### note:
+#### Note:
 
 ```
-For language code use ISO 639-1 Code
+For language codes use ISO 639-1 Code
+https://www.loc.gov/standards/iso639-2/php/code_list.php
 ```
