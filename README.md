@@ -8,6 +8,7 @@ Library used:
 open-cv
 textblob
 pytesseract
+pycountry
 ```
 
 #### Requirements

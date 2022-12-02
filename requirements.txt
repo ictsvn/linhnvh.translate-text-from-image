@@ -5,6 +5,7 @@ numpy==1.23.5
 opencv-python==4.6.0.66
 packaging==21.3
 Pillow==9.3.0
+pycountry==22.3.5
 pyparsing==3.0.9
 pytesseract==0.3.10
 regex==2022.10.31

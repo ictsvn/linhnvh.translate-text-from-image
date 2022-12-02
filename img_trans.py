@@ -3,6 +3,7 @@ from textblob import TextBlob
 import pytesseract
 import argparse
 import cv2
+import pycountry
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
@@ -21,7 +22,8 @@ rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 # use Tesseract to OCR the image, then replace newline characters
 # with a single space
-text = pytesseract.image_to_string(rgb, config="-l jpn")
+iso_1_lang = pycountry.languages.get(alpha_2=args["from_lang"])
+text = pytesseract.image_to_string(rgb, config=f"-l {iso_1_lang.alpha_3}")
 text = text.replace("\n", " ")
 
 # show the original OCR'd text
